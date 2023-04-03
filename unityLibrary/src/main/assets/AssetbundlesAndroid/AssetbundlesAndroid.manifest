@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 1090287911
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: fruit_chop
+      Dependencies: {}
+    Info_1:
+      Name: runner_game
+      Dependencies: {}
+    Info_2:
+      Name: candycrush
+      Dependencies: {}
