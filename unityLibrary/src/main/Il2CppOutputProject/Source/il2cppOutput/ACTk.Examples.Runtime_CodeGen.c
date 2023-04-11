@@ -1,0 +1,576 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 CodeStage.AntiCheat.Examples.DetectorsExamples CodeStage.AntiCheat.Examples.ExamplesGUI::get_DetectorsExamples()
+extern void ExamplesGUI_get_DetectorsExamples_m8DE989B816A107B3620E04CA4B4CCD6A840CE61D (void);
+// 0x00000002 System.Void CodeStage.AntiCheat.Examples.ExamplesGUI::Awake()
+extern void ExamplesGUI_Awake_m8E47D143B6A02B9A33410E06287D5302A7DF309C (void);
+// 0x00000003 System.Void CodeStage.AntiCheat.Examples.ExamplesGUI::OnGUI()
+extern void ExamplesGUI_OnGUI_m96F94FF489FAEF3B6089B8414C6A91F367DA70C5 (void);
+// 0x00000004 System.Void CodeStage.AntiCheat.Examples.ExamplesGUI::DrawSavesProtectionPage()
+extern void ExamplesGUI_DrawSavesProtectionPage_m271D592113BE6AF1B4BD55C2ACE00315F65815E6 (void);
+// 0x00000005 System.String CodeStage.AntiCheat.Examples.ExamplesGUI::Colorize(System.String,System.Boolean)
+extern void ExamplesGUI_Colorize_m4E05510656207607C80F553CBE27B6CB2AC174D1 (void);
+// 0x00000006 System.String CodeStage.AntiCheat.Examples.ExamplesGUI::Colorize(System.String,System.String)
+extern void ExamplesGUI_Colorize_m287E9A5A580BAD6B98981533E5C4ED8C0FF83939 (void);
+// 0x00000007 System.String CodeStage.AntiCheat.Examples.ExamplesGUI::GetAllObscuredPrefsDataTypes()
+extern void ExamplesGUI_GetAllObscuredPrefsDataTypes_mA0F3262338B0F53C186844CD10367DBE36091444 (void);
+// 0x00000008 System.Void CodeStage.AntiCheat.Examples.ExamplesGUI::.ctor()
+extern void ExamplesGUI__ctor_mC47AE8DF0367AAC9D35E5F5322839941A2D5505A (void);
+// 0x00000009 System.Void CodeStage.AntiCheat.Examples.InfiniteRotator::LateUpdate()
+extern void InfiniteRotator_LateUpdate_mFC0A443A64F14ADF9E328E2EB944DB82D951DD75 (void);
+// 0x0000000A System.Void CodeStage.AntiCheat.Examples.InfiniteRotator::.ctor()
+extern void InfiniteRotator__ctor_m5C4610B738FB056A049979052103DDE7C7ABCD6C (void);
+// 0x0000000B System.Void CodeStage.AntiCheat.Examples.InfiniteRotatorReliable::Awake()
+extern void InfiniteRotatorReliable_Awake_m91FA4E02B8CC1C8D2CFEFAFD6C7E69F86CA32929 (void);
+// 0x0000000C System.Void CodeStage.AntiCheat.Examples.InfiniteRotatorReliable::Update()
+extern void InfiniteRotatorReliable_Update_mA2654082F6B186DB6FAFE236CD8BD2EAEC14D80B (void);
+// 0x0000000D System.Void CodeStage.AntiCheat.Examples.InfiniteRotatorReliable::.ctor()
+extern void InfiniteRotatorReliable__ctor_m8984A41A697372AE143D3EA423C9DFF57110DCD3 (void);
+// 0x0000000E System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::Start()
+extern void ObscuredPerformanceTests_Start_m9D9B1AD3F49DE40D46A7045D0E5796FEF855E1A4 (void);
+// 0x0000000F System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::StartTests()
+extern void ObscuredPerformanceTests_StartTests_mF24548E6E0F0BAC483A40C6E6401D9B3CA1B303C (void);
+// 0x00000010 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestBool()
+extern void ObscuredPerformanceTests_TestBool_m7DC8BEF5EC605BDC8B518A561C5074DC53CD2C86 (void);
+// 0x00000011 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestByte()
+extern void ObscuredPerformanceTests_TestByte_mAF44ED95C9BFEF7F9D7DA94B951691210575099E (void);
+// 0x00000012 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestShort()
+extern void ObscuredPerformanceTests_TestShort_m070E77474AA85796895AED825FAE473B657BF463 (void);
+// 0x00000013 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestUShort()
+extern void ObscuredPerformanceTests_TestUShort_mCE99C6A2B763F0A02A1F3E8A70A6ED61D02CC52D (void);
+// 0x00000014 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestDouble()
+extern void ObscuredPerformanceTests_TestDouble_mABE4FA821665F527625C2D07EC4A82AB2330F2F9 (void);
+// 0x00000015 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestFloat()
+extern void ObscuredPerformanceTests_TestFloat_mD128F72B47A2308CF39910D1851DB5473CBF6C24 (void);
+// 0x00000016 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestInt()
+extern void ObscuredPerformanceTests_TestInt_m16E0B0FD60939D7062D72A99616E57AB48E55B3B (void);
+// 0x00000017 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestLong()
+extern void ObscuredPerformanceTests_TestLong_m0731FC0C94B5CAA7B27AB836C4BE164428B3EE1E (void);
+// 0x00000018 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestString()
+extern void ObscuredPerformanceTests_TestString_mCA9722BA777A468948A9D4484D3339049712F064 (void);
+// 0x00000019 System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestUInt()
+extern void ObscuredPerformanceTests_TestUInt_m8927CEF978AF47E08E61D949B6C1478F675A2EBD (void);
+// 0x0000001A System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestVector3()
+extern void ObscuredPerformanceTests_TestVector3_mF17C8DA518A9FF211F88DD06F8AB29E4D67DDFE1 (void);
+// 0x0000001B System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::TestPrefs()
+extern void ObscuredPerformanceTests_TestPrefs_m47B45E0A06A688B11B94BA87A18C557EACD7E072 (void);
+// 0x0000001C System.Void CodeStage.AntiCheat.Examples.ObscuredPerformanceTests::.ctor()
+extern void ObscuredPerformanceTests__ctor_mD0B25FD924566BC9ECBA235676EF323158A381EE (void);
+// 0x0000001D CodeStage.AntiCheat.Genuine.CodeHash.HashGeneratorResult CodeStage.AntiCheat.Examples.CodeHashExamples::get_LastResult()
+extern void CodeHashExamples_get_LastResult_m8B270A0FE01EEAB9BF8226103902A1DB31E948EF (void);
+// 0x0000001E System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::set_LastResult(CodeStage.AntiCheat.Genuine.CodeHash.HashGeneratorResult)
+extern void CodeHashExamples_set_LastResult_mE9D92D59958A4217BC6B1C5AF607857D7CC5F5B5 (void);
+// 0x0000001F System.Boolean CodeStage.AntiCheat.Examples.CodeHashExamples::get_IsBusy()
+extern void CodeHashExamples_get_IsBusy_m1FDD2F5B1E33623FB280F560F2DAFC33B1879855 (void);
+// 0x00000020 System.Boolean CodeStage.AntiCheat.Examples.CodeHashExamples::get_IsSupported()
+extern void CodeHashExamples_get_IsSupported_mBE4A6258BB058CEA20C12F2460BEEE150E9CEC89 (void);
+// 0x00000021 System.Boolean CodeStage.AntiCheat.Examples.CodeHashExamples::get_IsGenuineValueSetInInspector()
+extern void CodeHashExamples_get_IsGenuineValueSetInInspector_m708FFA49165CE569101FCD03E2B81D6AF1E83C40 (void);
+// 0x00000022 System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::Init()
+extern void CodeHashExamples_Init_m820352B609FAF4A533EB4B017CFAE74F45363AB7 (void);
+// 0x00000023 System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::StartGeneration()
+extern void CodeHashExamples_StartGeneration_m74A25AC48804F45AD5F3FDBFFB5701478D071D7A (void);
+// 0x00000024 System.Boolean CodeStage.AntiCheat.Examples.CodeHashExamples::SummaryHashMatches()
+extern void CodeHashExamples_SummaryHashMatches_m7C812315C2AF1812FE9A7EF37936D68C4CB6BDEF (void);
+// 0x00000025 System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::OnHashGenerated(CodeStage.AntiCheat.Genuine.CodeHash.HashGeneratorResult)
+extern void CodeHashExamples_OnHashGenerated_mB29DFBF980E7562116C6BF8ED3C33F14C6D53DC6 (void);
+// 0x00000026 System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::DrawUI()
+extern void CodeHashExamples_DrawUI_m1264C58D9042173D105642E27A2AF98A48AEF5D1 (void);
+// 0x00000027 System.Void CodeStage.AntiCheat.Examples.CodeHashExamples::.ctor()
+extern void CodeHashExamples__ctor_mAEDA78C58C199D11A8B9F3DAD338D04DDCD4B488 (void);
+// 0x00000028 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnSpeedHackDetected()
+extern void DetectorsExamples_OnSpeedHackDetected_m78B075942FFC01A5FFC296EFC1CCD65EEDF030BD (void);
+// 0x00000029 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnTimeCheatingDetected()
+extern void DetectorsExamples_OnTimeCheatingDetected_mB7F54872F39AB89816362C14823486CD07B44BB9 (void);
+// 0x0000002A System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnInjectionDetected()
+extern void DetectorsExamples_OnInjectionDetected_m9537CACBF556750AB50FCCB038505AEAE51C3D89 (void);
+// 0x0000002B System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnInjectionDetectedWithCause(System.String)
+extern void DetectorsExamples_OnInjectionDetectedWithCause_m20ED838C0A1F707BD9845FC93CCE30DC9C70F318 (void);
+// 0x0000002C System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnObscuredTypeCheatingDetected()
+extern void DetectorsExamples_OnObscuredTypeCheatingDetected_m5D87E2C20D03D74C5E688A1A0D2D1CD731831853 (void);
+// 0x0000002D System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnWallHackDetected()
+extern void DetectorsExamples_OnWallHackDetected_mCD47A2C58E4F2E5D505F571B093BCDE8E11347E7 (void);
+// 0x0000002E System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::OnTimeCheatChecked(CodeStage.AntiCheat.Detectors.TimeCheatingDetector/CheckResult,CodeStage.AntiCheat.Detectors.TimeCheatingDetector/ErrorKind)
+extern void DetectorsExamples_OnTimeCheatChecked_mA8B4DED0BEAC02837382FF7C394103AD4A2F4492 (void);
+// 0x0000002F System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::Start()
+extern void DetectorsExamples_Start_m7FA194A56A28D1E078D0E412B2C43102469EFB10 (void);
+// 0x00000030 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::SpeedHackDetectorExample()
+extern void DetectorsExamples_SpeedHackDetectorExample_mD8BEEFD3174814DD7FC796CDEC6BFA0ED8C5FA07 (void);
+// 0x00000031 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::InjectionDetectorExample()
+extern void DetectorsExamples_InjectionDetectorExample_m9E58D57474500339CB71AD54C6A599F24AFBB03B (void);
+// 0x00000032 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::ObscuredCheatingDetectorExample()
+extern void DetectorsExamples_ObscuredCheatingDetectorExample_m42CAC5AA40F19D9C2317F1DC5F8BF72D35831FAE (void);
+// 0x00000033 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::TimeCheatingDetectorExample()
+extern void DetectorsExamples_TimeCheatingDetectorExample_m731979E15CD4C94A1CA35E7C9A584A8117C5C4DB (void);
+// 0x00000034 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::ForceTimeCheatingDetectorCheck()
+extern void DetectorsExamples_ForceTimeCheatingDetectorCheck_m74BE67F04DDBA0191F0851F7C1E3641416C41F48 (void);
+// 0x00000035 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::DrawUI()
+extern void DetectorsExamples_DrawUI_mB007DD9D0D7C7B7D61617259B1C53F4E1CAB15A3 (void);
+// 0x00000036 System.Void CodeStage.AntiCheat.Examples.DetectorsExamples::.ctor()
+extern void DetectorsExamples__ctor_m9B54533E7914E59F4F2F93F15C12186202D353F7 (void);
+// 0x00000037 System.String CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::get_LoadedData()
+extern void ObscuredFilePrefsExamples_get_LoadedData_mB560D904F3C7D3128288AB7A582884162B4DAF6E (void);
+// 0x00000038 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::set_LoadedData(System.String)
+extern void ObscuredFilePrefsExamples_set_LoadedData_m2105CE1BE7AA15EAC3DF20D7498C5EEC29E3D6B4 (void);
+// 0x00000039 System.Boolean CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::get_NotGenuine()
+extern void ObscuredFilePrefsExamples_get_NotGenuine_m32C912B4E8B9F60B0192B2BDF905B5B0EC42192B (void);
+// 0x0000003A System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::set_NotGenuine(System.Boolean)
+extern void ObscuredFilePrefsExamples_set_NotGenuine_m83880BCC06661C884E57005D03572F93F4EAAF03 (void);
+// 0x0000003B System.Boolean CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::get_FromAnotherDevice()
+extern void ObscuredFilePrefsExamples_get_FromAnotherDevice_mDE5AC802BCB98933F5C281DD2CC2BDB2C09E8044 (void);
+// 0x0000003C System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::set_FromAnotherDevice(System.Boolean)
+extern void ObscuredFilePrefsExamples_set_FromAnotherDevice_mBADED40D2AB3A9BFD9ABCE32C1394AE01E4EE299 (void);
+// 0x0000003D System.Boolean CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::get_IsExists()
+extern void ObscuredFilePrefsExamples_get_IsExists_m6A22D17E90A04F2F85BE06E6295A799A9E05834A (void);
+// 0x0000003E System.Boolean CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::get_IsLoaded()
+extern void ObscuredFilePrefsExamples_get_IsLoaded_m6C7EEA6863B131E588668A2F69A4F8B785C12D09 (void);
+// 0x0000003F System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::Start()
+extern void ObscuredFilePrefsExamples_Start_m35D2DB74963A91B239A47D6EFCEAA5490D4E1428 (void);
+// 0x00000040 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::PrewarmAsync()
+extern void ObscuredFilePrefsExamples_PrewarmAsync_mA0B4AE13D7103F9EEA722EB11EA4410D2E999B67 (void);
+// 0x00000041 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::SetBytesPref()
+extern void ObscuredFilePrefsExamples_SetBytesPref_m17FF645D044F348C41387412BDBE3AF94647A1AF (void);
+// 0x00000042 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::GetBytesPref()
+extern void ObscuredFilePrefsExamples_GetBytesPref_mA970AD24982D549F5ECE724D2EE83BCAFE3A12B4 (void);
+// 0x00000043 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::SetBytesPrefAsync()
+extern void ObscuredFilePrefsExamples_SetBytesPrefAsync_m9CF363C8832FFA615B33CA85BA147800C2935B87 (void);
+// 0x00000044 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::GetBytesPrefAsync()
+extern void ObscuredFilePrefsExamples_GetBytesPrefAsync_m6F4056C9CE40F4E17666ADD69FC65D2E6148E126 (void);
+// 0x00000045 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::LoadPrefsAsync()
+extern void ObscuredFilePrefsExamples_LoadPrefsAsync_m7A42CA1102D10FBBFFC5A5A5AC2B79AA9FCD88CB (void);
+// 0x00000046 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::SaveAsync()
+extern void ObscuredFilePrefsExamples_SaveAsync_m4A804013B8E6510605984F4CC234E9CAE3DD27EF (void);
+// 0x00000047 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::LoadPrefs()
+extern void ObscuredFilePrefsExamples_LoadPrefs_m4E7BCC9FEE47DCE983590E941EC865B10B4717C1 (void);
+// 0x00000048 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::UnloadPrefs()
+extern void ObscuredFilePrefsExamples_UnloadPrefs_m54A394ABB21D8AD98FE032352FA3D7E1175B5159 (void);
+// 0x00000049 System.Boolean CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::HasKey(System.String)
+extern void ObscuredFilePrefsExamples_HasKey_m371C3A34D3F788770F133B226159B3B8F912D39B (void);
+// 0x0000004A System.Collections.Generic.ICollection`1<System.String> CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::GetKeys()
+extern void ObscuredFilePrefsExamples_GetKeys_mD6BEBE538945CBCD381063B6AA5550609FE19ABD (void);
+// 0x0000004B System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::SetStringPref()
+extern void ObscuredFilePrefsExamples_SetStringPref_m1227D8050653CA535B0573D532653556D82DAB91 (void);
+// 0x0000004C System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::GetStringPref()
+extern void ObscuredFilePrefsExamples_GetStringPref_m74FFB9476F98EADC1D16098D424C9678740D88D9 (void);
+// 0x0000004D System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DeleteAllPrefs()
+extern void ObscuredFilePrefsExamples_DeleteAllPrefs_m6DFB2E11F8108BB2A6C0DAF0913EC46EF6C61D89 (void);
+// 0x0000004E System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::OnNotGenuineDataDetected()
+extern void ObscuredFilePrefsExamples_OnNotGenuineDataDetected_m4DC23151894B32441731AA1BF31985C31B456EFD (void);
+// 0x0000004F System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::OnDataFromAnotherDeviceDetected()
+extern void ObscuredFilePrefsExamples_OnDataFromAnotherDeviceDetected_mFF37488E35B03291C497B1E5CE95F232F1DE1722 (void);
+// 0x00000050 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::Save()
+extern void ObscuredFilePrefsExamples_Save_mE92D12F18296B79FFF992639A518BE416C7E6A86 (void);
+// 0x00000051 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawUI()
+extern void ObscuredFilePrefsExamples_DrawUI_m81C84C5C08966414C5070FE18DB7158CD352A600 (void);
+// 0x00000052 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawStatusPanel()
+extern void ObscuredFilePrefsExamples_DrawStatusPanel_mBE8365A3E6BECED727D9202F0FD8125C859F0D29 (void);
+// 0x00000053 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawLoadUnloadPanel()
+extern void ObscuredFilePrefsExamples_DrawLoadUnloadPanel_mE1264E9695DD0CE8BA9F55A68F80A82A4625FE69 (void);
+// 0x00000054 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawStringPrefPanel()
+extern void ObscuredFilePrefsExamples_DrawStringPrefPanel_mB6F5F524B8982EA2C07E29C74DC0B4760E945C61 (void);
+// 0x00000055 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawBinaryPrefPanel()
+extern void ObscuredFilePrefsExamples_DrawBinaryPrefPanel_mE5FC3EEBD894574D291B4E8824735F031FD7D728 (void);
+// 0x00000056 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::DrawSavePanel()
+extern void ObscuredFilePrefsExamples_DrawSavePanel_m4925BAAE6B9D5DC0E9CDC1B1951E3A884EFCA198 (void);
+// 0x00000057 System.String CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::FormatBytes(System.Double)
+extern void ObscuredFilePrefsExamples_FormatBytes_m5311420F01930F9B648D434B8F603FC7E64C1E82 (void);
+// 0x00000058 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples::.ctor()
+extern void ObscuredFilePrefsExamples__ctor_mA4D5562C1CE58DB66A401C0DC9801B274D3D71F7 (void);
+// 0x00000059 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<PrewarmAsync>d__27::MoveNext()
+extern void U3CPrewarmAsyncU3Ed__27_MoveNext_mAD7775F0DBAA3562B7D50F522AA6D7BA52D486AA (void);
+// 0x0000005A System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<PrewarmAsync>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CPrewarmAsyncU3Ed__27_SetStateMachine_m595C621E2F7E6E5F10EA151B587DD0277190E6B3 (void);
+// 0x0000005B System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<SetBytesPrefAsync>d__30::MoveNext()
+extern void U3CSetBytesPrefAsyncU3Ed__30_MoveNext_mC20E693C342FA4A4CF1BBC3B63BB3F3759A76791 (void);
+// 0x0000005C System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<SetBytesPrefAsync>d__30::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSetBytesPrefAsyncU3Ed__30_SetStateMachine_mD2BECFA20C56DCEB41F9A8EBB52515C0FE6F6626 (void);
+// 0x0000005D System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<GetBytesPrefAsync>d__31::MoveNext()
+extern void U3CGetBytesPrefAsyncU3Ed__31_MoveNext_m746DAE93AE40451AFAA3A150ABE47350DA8372D6 (void);
+// 0x0000005E System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<GetBytesPrefAsync>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CGetBytesPrefAsyncU3Ed__31_SetStateMachine_m41167F444817F5ED1238765F5105CECDBADBB9FA (void);
+// 0x0000005F System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<LoadPrefsAsync>d__32::MoveNext()
+extern void U3CLoadPrefsAsyncU3Ed__32_MoveNext_m5E5241FF4AA941284E9D688AAA2F84BC0C6DDF6B (void);
+// 0x00000060 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<LoadPrefsAsync>d__32::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CLoadPrefsAsyncU3Ed__32_SetStateMachine_mE17C5EC949CCDD7A1E7158858FF2A5E05708B15B (void);
+// 0x00000061 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<SaveAsync>d__33::MoveNext()
+extern void U3CSaveAsyncU3Ed__33_MoveNext_m27754B42C1F841D88CA42DAB0A66054516CA3645 (void);
+// 0x00000062 System.Void CodeStage.AntiCheat.Examples.ObscuredFilePrefsExamples/<SaveAsync>d__33::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSaveAsyncU3Ed__33_SetStateMachine_mAA588F32C512BDA491B9B234A6EB6584D0C3DC1A (void);
+// 0x00000063 System.Boolean CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::get_PreservePlayerPrefs()
+extern void ObscuredPrefsExamples_get_PreservePlayerPrefs_mC15DEDEAB7537EB470543794806BADD768958637 (void);
+// 0x00000064 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::set_PreservePlayerPrefs(System.Boolean)
+extern void ObscuredPrefsExamples_set_PreservePlayerPrefs_m3559CA2505CF40ADA5CC782DA5E2D2183988CEC9 (void);
+// 0x00000065 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::Awake()
+extern void ObscuredPrefsExamples_Awake_mF9F31FB9A0168FE86AA177E6DE77F63C2305ED20 (void);
+// 0x00000066 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::OnDestroy()
+extern void ObscuredPrefsExamples_OnDestroy_m59C9B97EF8368B6E887E07493EDD9CA1F447CC92 (void);
+// 0x00000067 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::OnSavesNotGenuineDataDetected()
+extern void ObscuredPrefsExamples_OnSavesNotGenuineDataDetected_mB2CEA6E79634D38B4F0F0BF6211CC9883D1EB5EC (void);
+// 0x00000068 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::OnDataFromAnotherDeviceDetected()
+extern void ObscuredPrefsExamples_OnDataFromAnotherDeviceDetected_m1B510D4EA16A627153C85760433A25AB2D27B681 (void);
+// 0x00000069 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::LoadRegularPrefs()
+extern void ObscuredPrefsExamples_LoadRegularPrefs_m8D5C8F715DDCD0A2C8EEDBB20A5F425C99669B6B (void);
+// 0x0000006A System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::SaveRegularPrefs()
+extern void ObscuredPrefsExamples_SaveRegularPrefs_m7F6B8FB20EF0B7D47356162A65E78903DBAE229C (void);
+// 0x0000006B System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::DeleteRegularPrefs()
+extern void ObscuredPrefsExamples_DeleteRegularPrefs_m30CADE8E1F7AC36A2ACB6245732CC5303D05952B (void);
+// 0x0000006C System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::ApplyDeviceLockLevel(CodeStage.AntiCheat.Storage.DeviceLockLevel)
+extern void ObscuredPrefsExamples_ApplyDeviceLockLevel_mF1E1CAD05922201BA2DC48AC304C291D364E2F5A (void);
+// 0x0000006D System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::ApplyTamperingSensitivity(CodeStage.AntiCheat.Storage.DeviceLockTamperingSensitivity)
+extern void ObscuredPrefsExamples_ApplyTamperingSensitivity_mE3FB54A2FDD3AEE30BACFDDF63F4CA2144754622 (void);
+// 0x0000006E System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::LoadObscuredPrefs()
+extern void ObscuredPrefsExamples_LoadObscuredPrefs_m0D10149D2CD13F74D14999EA7F86EA9FDED53573 (void);
+// 0x0000006F System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::SaveObscuredPrefs()
+extern void ObscuredPrefsExamples_SaveObscuredPrefs_m6F9D496B8138AEA365523605B35997924A4D7299 (void);
+// 0x00000070 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::DeleteObscuredPrefs()
+extern void ObscuredPrefsExamples_DeleteObscuredPrefs_m174BBBBE142B6EC95F2DD325321185E150698A8E (void);
+// 0x00000071 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::MigrateFromV1()
+extern void ObscuredPrefsExamples_MigrateFromV1_m37C0D57ABCB4C41A0C515ACAB4C30F1D79D6378E (void);
+// 0x00000072 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::DrawUI()
+extern void ObscuredPrefsExamples_DrawUI_mCCCD1B0E27885B91F0FB2F5E44CD86C67C580B6D (void);
+// 0x00000073 System.Void CodeStage.AntiCheat.Examples.ObscuredPrefsExamples::.ctor()
+extern void ObscuredPrefsExamples__ctor_m703ED27F196B978AF55E84B13AF38B5259BE4707 (void);
+// 0x00000074 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::Awake()
+extern void ObscuredTypesExamples_Awake_m871BEF6A2D173D488EBDE72AF63A226FC4A8580B (void);
+// 0x00000075 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::Start()
+extern void ObscuredTypesExamples_Start_mF9B4BE05511F2A0B3294F41C45A5210DC8F178EE (void);
+// 0x00000076 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::RandomizeObscuredVars()
+extern void ObscuredTypesExamples_RandomizeObscuredVars_m37FDC294603BA2E9B44F38D5DC75C07B67BAE5B3 (void);
+// 0x00000077 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::ObscuredStringExample()
+extern void ObscuredTypesExamples_ObscuredStringExample_m26E796C003A69AF77363DCCA6D8A1249CC97D11C (void);
+// 0x00000078 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::ObscuredIntExample()
+extern void ObscuredTypesExamples_ObscuredIntExample_m234A7D6BB5BCF2807E92BF7542D1B69D0A45978A (void);
+// 0x00000079 System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::DrawUI(CodeStage.AntiCheat.Examples.ExamplesGUI)
+extern void ObscuredTypesExamples_DrawUI_m1206B93E7E102DAAE40A080465B360DE665B4141 (void);
+// 0x0000007A System.String CodeStage.AntiCheat.Examples.ObscuredTypesExamples::Get()
+extern void ObscuredTypesExamples_Get_m1C44C864615BA449DC6AD0BA6EC410DD34733515 (void);
+// 0x0000007B System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples::.ctor()
+extern void ObscuredTypesExamples__ctor_m932B92F44AE454E51CB6FA7BA09D9515E4430824 (void);
+// 0x0000007C System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples/<>c__DisplayClass23_0::.ctor()
+extern void U3CU3Ec__DisplayClass23_0__ctor_mE3CACAAAA8E54B4A3CC7F6D238B83681DBA13631 (void);
+// 0x0000007D System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples/<>c__DisplayClass23_0::<Get>b__1(System.Type)
+extern void U3CU3Ec__DisplayClass23_0_U3CGetU3Eb__1_mB29C0AB99D79AB25E3D42EBDC03EA49CC3D666E0 (void);
+// 0x0000007E System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples/<>c::.cctor()
+extern void U3CU3Ec__cctor_m3287B8323C47A1D913E1790FC072184BBE787838 (void);
+// 0x0000007F System.Void CodeStage.AntiCheat.Examples.ObscuredTypesExamples/<>c::.ctor()
+extern void U3CU3Ec__ctor_m6A141B1B531784EFFE6041B30E8A89E9D5FCE946 (void);
+// 0x00000080 System.Boolean CodeStage.AntiCheat.Examples.ObscuredTypesExamples/<>c::<Get>b__23_0(System.Type)
+extern void U3CU3Ec_U3CGetU3Eb__23_0_m78AEA88F6860D4C545C77395009062CA34D689D3 (void);
+static Il2CppMethodPointer s_methodPointers[128] = 
+{
+	ExamplesGUI_get_DetectorsExamples_m8DE989B816A107B3620E04CA4B4CCD6A840CE61D,
+	ExamplesGUI_Awake_m8E47D143B6A02B9A33410E06287D5302A7DF309C,
+	ExamplesGUI_OnGUI_m96F94FF489FAEF3B6089B8414C6A91F367DA70C5,
+	ExamplesGUI_DrawSavesProtectionPage_m271D592113BE6AF1B4BD55C2ACE00315F65815E6,
+	ExamplesGUI_Colorize_m4E05510656207607C80F553CBE27B6CB2AC174D1,
+	ExamplesGUI_Colorize_m287E9A5A580BAD6B98981533E5C4ED8C0FF83939,
+	ExamplesGUI_GetAllObscuredPrefsDataTypes_mA0F3262338B0F53C186844CD10367DBE36091444,
+	ExamplesGUI__ctor_mC47AE8DF0367AAC9D35E5F5322839941A2D5505A,
+	InfiniteRotator_LateUpdate_mFC0A443A64F14ADF9E328E2EB944DB82D951DD75,
+	InfiniteRotator__ctor_m5C4610B738FB056A049979052103DDE7C7ABCD6C,
+	InfiniteRotatorReliable_Awake_m91FA4E02B8CC1C8D2CFEFAFD6C7E69F86CA32929,
+	InfiniteRotatorReliable_Update_mA2654082F6B186DB6FAFE236CD8BD2EAEC14D80B,
+	InfiniteRotatorReliable__ctor_m8984A41A697372AE143D3EA423C9DFF57110DCD3,
+	ObscuredPerformanceTests_Start_m9D9B1AD3F49DE40D46A7045D0E5796FEF855E1A4,
+	ObscuredPerformanceTests_StartTests_mF24548E6E0F0BAC483A40C6E6401D9B3CA1B303C,
+	ObscuredPerformanceTests_TestBool_m7DC8BEF5EC605BDC8B518A561C5074DC53CD2C86,
+	ObscuredPerformanceTests_TestByte_mAF44ED95C9BFEF7F9D7DA94B951691210575099E,
+	ObscuredPerformanceTests_TestShort_m070E77474AA85796895AED825FAE473B657BF463,
+	ObscuredPerformanceTests_TestUShort_mCE99C6A2B763F0A02A1F3E8A70A6ED61D02CC52D,
+	ObscuredPerformanceTests_TestDouble_mABE4FA821665F527625C2D07EC4A82AB2330F2F9,
+	ObscuredPerformanceTests_TestFloat_mD128F72B47A2308CF39910D1851DB5473CBF6C24,
+	ObscuredPerformanceTests_TestInt_m16E0B0FD60939D7062D72A99616E57AB48E55B3B,
+	ObscuredPerformanceTests_TestLong_m0731FC0C94B5CAA7B27AB836C4BE164428B3EE1E,
+	ObscuredPerformanceTests_TestString_mCA9722BA777A468948A9D4484D3339049712F064,
+	ObscuredPerformanceTests_TestUInt_m8927CEF978AF47E08E61D949B6C1478F675A2EBD,
+	ObscuredPerformanceTests_TestVector3_mF17C8DA518A9FF211F88DD06F8AB29E4D67DDFE1,
+	ObscuredPerformanceTests_TestPrefs_m47B45E0A06A688B11B94BA87A18C557EACD7E072,
+	ObscuredPerformanceTests__ctor_mD0B25FD924566BC9ECBA235676EF323158A381EE,
+	CodeHashExamples_get_LastResult_m8B270A0FE01EEAB9BF8226103902A1DB31E948EF,
+	CodeHashExamples_set_LastResult_mE9D92D59958A4217BC6B1C5AF607857D7CC5F5B5,
+	CodeHashExamples_get_IsBusy_m1FDD2F5B1E33623FB280F560F2DAFC33B1879855,
+	CodeHashExamples_get_IsSupported_mBE4A6258BB058CEA20C12F2460BEEE150E9CEC89,
+	CodeHashExamples_get_IsGenuineValueSetInInspector_m708FFA49165CE569101FCD03E2B81D6AF1E83C40,
+	CodeHashExamples_Init_m820352B609FAF4A533EB4B017CFAE74F45363AB7,
+	CodeHashExamples_StartGeneration_m74A25AC48804F45AD5F3FDBFFB5701478D071D7A,
+	CodeHashExamples_SummaryHashMatches_m7C812315C2AF1812FE9A7EF37936D68C4CB6BDEF,
+	CodeHashExamples_OnHashGenerated_mB29DFBF980E7562116C6BF8ED3C33F14C6D53DC6,
+	CodeHashExamples_DrawUI_m1264C58D9042173D105642E27A2AF98A48AEF5D1,
+	CodeHashExamples__ctor_mAEDA78C58C199D11A8B9F3DAD338D04DDCD4B488,
+	DetectorsExamples_OnSpeedHackDetected_m78B075942FFC01A5FFC296EFC1CCD65EEDF030BD,
+	DetectorsExamples_OnTimeCheatingDetected_mB7F54872F39AB89816362C14823486CD07B44BB9,
+	DetectorsExamples_OnInjectionDetected_m9537CACBF556750AB50FCCB038505AEAE51C3D89,
+	DetectorsExamples_OnInjectionDetectedWithCause_m20ED838C0A1F707BD9845FC93CCE30DC9C70F318,
+	DetectorsExamples_OnObscuredTypeCheatingDetected_m5D87E2C20D03D74C5E688A1A0D2D1CD731831853,
+	DetectorsExamples_OnWallHackDetected_mCD47A2C58E4F2E5D505F571B093BCDE8E11347E7,
+	DetectorsExamples_OnTimeCheatChecked_mA8B4DED0BEAC02837382FF7C394103AD4A2F4492,
+	DetectorsExamples_Start_m7FA194A56A28D1E078D0E412B2C43102469EFB10,
+	DetectorsExamples_SpeedHackDetectorExample_mD8BEEFD3174814DD7FC796CDEC6BFA0ED8C5FA07,
+	DetectorsExamples_InjectionDetectorExample_m9E58D57474500339CB71AD54C6A599F24AFBB03B,
+	DetectorsExamples_ObscuredCheatingDetectorExample_m42CAC5AA40F19D9C2317F1DC5F8BF72D35831FAE,
+	DetectorsExamples_TimeCheatingDetectorExample_m731979E15CD4C94A1CA35E7C9A584A8117C5C4DB,
+	DetectorsExamples_ForceTimeCheatingDetectorCheck_m74BE67F04DDBA0191F0851F7C1E3641416C41F48,
+	DetectorsExamples_DrawUI_mB007DD9D0D7C7B7D61617259B1C53F4E1CAB15A3,
+	DetectorsExamples__ctor_m9B54533E7914E59F4F2F93F15C12186202D353F7,
+	ObscuredFilePrefsExamples_get_LoadedData_mB560D904F3C7D3128288AB7A582884162B4DAF6E,
+	ObscuredFilePrefsExamples_set_LoadedData_m2105CE1BE7AA15EAC3DF20D7498C5EEC29E3D6B4,
+	ObscuredFilePrefsExamples_get_NotGenuine_m32C912B4E8B9F60B0192B2BDF905B5B0EC42192B,
+	ObscuredFilePrefsExamples_set_NotGenuine_m83880BCC06661C884E57005D03572F93F4EAAF03,
+	ObscuredFilePrefsExamples_get_FromAnotherDevice_mDE5AC802BCB98933F5C281DD2CC2BDB2C09E8044,
+	ObscuredFilePrefsExamples_set_FromAnotherDevice_mBADED40D2AB3A9BFD9ABCE32C1394AE01E4EE299,
+	ObscuredFilePrefsExamples_get_IsExists_m6A22D17E90A04F2F85BE06E6295A799A9E05834A,
+	ObscuredFilePrefsExamples_get_IsLoaded_m6C7EEA6863B131E588668A2F69A4F8B785C12D09,
+	ObscuredFilePrefsExamples_Start_m35D2DB74963A91B239A47D6EFCEAA5490D4E1428,
+	ObscuredFilePrefsExamples_PrewarmAsync_mA0B4AE13D7103F9EEA722EB11EA4410D2E999B67,
+	ObscuredFilePrefsExamples_SetBytesPref_m17FF645D044F348C41387412BDBE3AF94647A1AF,
+	ObscuredFilePrefsExamples_GetBytesPref_mA970AD24982D549F5ECE724D2EE83BCAFE3A12B4,
+	ObscuredFilePrefsExamples_SetBytesPrefAsync_m9CF363C8832FFA615B33CA85BA147800C2935B87,
+	ObscuredFilePrefsExamples_GetBytesPrefAsync_m6F4056C9CE40F4E17666ADD69FC65D2E6148E126,
+	ObscuredFilePrefsExamples_LoadPrefsAsync_m7A42CA1102D10FBBFFC5A5A5AC2B79AA9FCD88CB,
+	ObscuredFilePrefsExamples_SaveAsync_m4A804013B8E6510605984F4CC234E9CAE3DD27EF,
+	ObscuredFilePrefsExamples_LoadPrefs_m4E7BCC9FEE47DCE983590E941EC865B10B4717C1,
+	ObscuredFilePrefsExamples_UnloadPrefs_m54A394ABB21D8AD98FE032352FA3D7E1175B5159,
+	ObscuredFilePrefsExamples_HasKey_m371C3A34D3F788770F133B226159B3B8F912D39B,
+	ObscuredFilePrefsExamples_GetKeys_mD6BEBE538945CBCD381063B6AA5550609FE19ABD,
+	ObscuredFilePrefsExamples_SetStringPref_m1227D8050653CA535B0573D532653556D82DAB91,
+	ObscuredFilePrefsExamples_GetStringPref_m74FFB9476F98EADC1D16098D424C9678740D88D9,
+	ObscuredFilePrefsExamples_DeleteAllPrefs_m6DFB2E11F8108BB2A6C0DAF0913EC46EF6C61D89,
+	ObscuredFilePrefsExamples_OnNotGenuineDataDetected_m4DC23151894B32441731AA1BF31985C31B456EFD,
+	ObscuredFilePrefsExamples_OnDataFromAnotherDeviceDetected_mFF37488E35B03291C497B1E5CE95F232F1DE1722,
+	ObscuredFilePrefsExamples_Save_mE92D12F18296B79FFF992639A518BE416C7E6A86,
+	ObscuredFilePrefsExamples_DrawUI_m81C84C5C08966414C5070FE18DB7158CD352A600,
+	ObscuredFilePrefsExamples_DrawStatusPanel_mBE8365A3E6BECED727D9202F0FD8125C859F0D29,
+	ObscuredFilePrefsExamples_DrawLoadUnloadPanel_mE1264E9695DD0CE8BA9F55A68F80A82A4625FE69,
+	ObscuredFilePrefsExamples_DrawStringPrefPanel_mB6F5F524B8982EA2C07E29C74DC0B4760E945C61,
+	ObscuredFilePrefsExamples_DrawBinaryPrefPanel_mE5FC3EEBD894574D291B4E8824735F031FD7D728,
+	ObscuredFilePrefsExamples_DrawSavePanel_m4925BAAE6B9D5DC0E9CDC1B1951E3A884EFCA198,
+	ObscuredFilePrefsExamples_FormatBytes_m5311420F01930F9B648D434B8F603FC7E64C1E82,
+	ObscuredFilePrefsExamples__ctor_mA4D5562C1CE58DB66A401C0DC9801B274D3D71F7,
+	U3CPrewarmAsyncU3Ed__27_MoveNext_mAD7775F0DBAA3562B7D50F522AA6D7BA52D486AA,
+	U3CPrewarmAsyncU3Ed__27_SetStateMachine_m595C621E2F7E6E5F10EA151B587DD0277190E6B3,
+	U3CSetBytesPrefAsyncU3Ed__30_MoveNext_mC20E693C342FA4A4CF1BBC3B63BB3F3759A76791,
+	U3CSetBytesPrefAsyncU3Ed__30_SetStateMachine_mD2BECFA20C56DCEB41F9A8EBB52515C0FE6F6626,
+	U3CGetBytesPrefAsyncU3Ed__31_MoveNext_m746DAE93AE40451AFAA3A150ABE47350DA8372D6,
+	U3CGetBytesPrefAsyncU3Ed__31_SetStateMachine_m41167F444817F5ED1238765F5105CECDBADBB9FA,
+	U3CLoadPrefsAsyncU3Ed__32_MoveNext_m5E5241FF4AA941284E9D688AAA2F84BC0C6DDF6B,
+	U3CLoadPrefsAsyncU3Ed__32_SetStateMachine_mE17C5EC949CCDD7A1E7158858FF2A5E05708B15B,
+	U3CSaveAsyncU3Ed__33_MoveNext_m27754B42C1F841D88CA42DAB0A66054516CA3645,
+	U3CSaveAsyncU3Ed__33_SetStateMachine_mAA588F32C512BDA491B9B234A6EB6584D0C3DC1A,
+	ObscuredPrefsExamples_get_PreservePlayerPrefs_mC15DEDEAB7537EB470543794806BADD768958637,
+	ObscuredPrefsExamples_set_PreservePlayerPrefs_m3559CA2505CF40ADA5CC782DA5E2D2183988CEC9,
+	ObscuredPrefsExamples_Awake_mF9F31FB9A0168FE86AA177E6DE77F63C2305ED20,
+	ObscuredPrefsExamples_OnDestroy_m59C9B97EF8368B6E887E07493EDD9CA1F447CC92,
+	ObscuredPrefsExamples_OnSavesNotGenuineDataDetected_mB2CEA6E79634D38B4F0F0BF6211CC9883D1EB5EC,
+	ObscuredPrefsExamples_OnDataFromAnotherDeviceDetected_m1B510D4EA16A627153C85760433A25AB2D27B681,
+	ObscuredPrefsExamples_LoadRegularPrefs_m8D5C8F715DDCD0A2C8EEDBB20A5F425C99669B6B,
+	ObscuredPrefsExamples_SaveRegularPrefs_m7F6B8FB20EF0B7D47356162A65E78903DBAE229C,
+	ObscuredPrefsExamples_DeleteRegularPrefs_m30CADE8E1F7AC36A2ACB6245732CC5303D05952B,
+	ObscuredPrefsExamples_ApplyDeviceLockLevel_mF1E1CAD05922201BA2DC48AC304C291D364E2F5A,
+	ObscuredPrefsExamples_ApplyTamperingSensitivity_mE3FB54A2FDD3AEE30BACFDDF63F4CA2144754622,
+	ObscuredPrefsExamples_LoadObscuredPrefs_m0D10149D2CD13F74D14999EA7F86EA9FDED53573,
+	ObscuredPrefsExamples_SaveObscuredPrefs_m6F9D496B8138AEA365523605B35997924A4D7299,
+	ObscuredPrefsExamples_DeleteObscuredPrefs_m174BBBBE142B6EC95F2DD325321185E150698A8E,
+	ObscuredPrefsExamples_MigrateFromV1_m37C0D57ABCB4C41A0C515ACAB4C30F1D79D6378E,
+	ObscuredPrefsExamples_DrawUI_mCCCD1B0E27885B91F0FB2F5E44CD86C67C580B6D,
+	ObscuredPrefsExamples__ctor_m703ED27F196B978AF55E84B13AF38B5259BE4707,
+	ObscuredTypesExamples_Awake_m871BEF6A2D173D488EBDE72AF63A226FC4A8580B,
+	ObscuredTypesExamples_Start_mF9B4BE05511F2A0B3294F41C45A5210DC8F178EE,
+	ObscuredTypesExamples_RandomizeObscuredVars_m37FDC294603BA2E9B44F38D5DC75C07B67BAE5B3,
+	ObscuredTypesExamples_ObscuredStringExample_m26E796C003A69AF77363DCCA6D8A1249CC97D11C,
+	ObscuredTypesExamples_ObscuredIntExample_m234A7D6BB5BCF2807E92BF7542D1B69D0A45978A,
+	ObscuredTypesExamples_DrawUI_m1206B93E7E102DAAE40A080465B360DE665B4141,
+	ObscuredTypesExamples_Get_m1C44C864615BA449DC6AD0BA6EC410DD34733515,
+	ObscuredTypesExamples__ctor_m932B92F44AE454E51CB6FA7BA09D9515E4430824,
+	U3CU3Ec__DisplayClass23_0__ctor_mE3CACAAAA8E54B4A3CC7F6D238B83681DBA13631,
+	U3CU3Ec__DisplayClass23_0_U3CGetU3Eb__1_mB29C0AB99D79AB25E3D42EBDC03EA49CC3D666E0,
+	U3CU3Ec__cctor_m3287B8323C47A1D913E1790FC072184BBE787838,
+	U3CU3Ec__ctor_m6A141B1B531784EFFE6041B30E8A89E9D5FCE946,
+	U3CU3Ec_U3CGetU3Eb__23_0_m78AEA88F6860D4C545C77395009062CA34D689D3,
+};
+extern void U3CPrewarmAsyncU3Ed__27_MoveNext_mAD7775F0DBAA3562B7D50F522AA6D7BA52D486AA_AdjustorThunk (void);
+extern void U3CPrewarmAsyncU3Ed__27_SetStateMachine_m595C621E2F7E6E5F10EA151B587DD0277190E6B3_AdjustorThunk (void);
+extern void U3CSetBytesPrefAsyncU3Ed__30_MoveNext_mC20E693C342FA4A4CF1BBC3B63BB3F3759A76791_AdjustorThunk (void);
+extern void U3CSetBytesPrefAsyncU3Ed__30_SetStateMachine_mD2BECFA20C56DCEB41F9A8EBB52515C0FE6F6626_AdjustorThunk (void);
+extern void U3CGetBytesPrefAsyncU3Ed__31_MoveNext_m746DAE93AE40451AFAA3A150ABE47350DA8372D6_AdjustorThunk (void);
+extern void U3CGetBytesPrefAsyncU3Ed__31_SetStateMachine_m41167F444817F5ED1238765F5105CECDBADBB9FA_AdjustorThunk (void);
+extern void U3CLoadPrefsAsyncU3Ed__32_MoveNext_m5E5241FF4AA941284E9D688AAA2F84BC0C6DDF6B_AdjustorThunk (void);
+extern void U3CLoadPrefsAsyncU3Ed__32_SetStateMachine_mE17C5EC949CCDD7A1E7158858FF2A5E05708B15B_AdjustorThunk (void);
+extern void U3CSaveAsyncU3Ed__33_MoveNext_m27754B42C1F841D88CA42DAB0A66054516CA3645_AdjustorThunk (void);
+extern void U3CSaveAsyncU3Ed__33_SetStateMachine_mAA588F32C512BDA491B9B234A6EB6584D0C3DC1A_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] = 
+{
+	{ 0x06000059, U3CPrewarmAsyncU3Ed__27_MoveNext_mAD7775F0DBAA3562B7D50F522AA6D7BA52D486AA_AdjustorThunk },
+	{ 0x0600005A, U3CPrewarmAsyncU3Ed__27_SetStateMachine_m595C621E2F7E6E5F10EA151B587DD0277190E6B3_AdjustorThunk },
+	{ 0x0600005B, U3CSetBytesPrefAsyncU3Ed__30_MoveNext_mC20E693C342FA4A4CF1BBC3B63BB3F3759A76791_AdjustorThunk },
+	{ 0x0600005C, U3CSetBytesPrefAsyncU3Ed__30_SetStateMachine_mD2BECFA20C56DCEB41F9A8EBB52515C0FE6F6626_AdjustorThunk },
+	{ 0x0600005D, U3CGetBytesPrefAsyncU3Ed__31_MoveNext_m746DAE93AE40451AFAA3A150ABE47350DA8372D6_AdjustorThunk },
+	{ 0x0600005E, U3CGetBytesPrefAsyncU3Ed__31_SetStateMachine_m41167F444817F5ED1238765F5105CECDBADBB9FA_AdjustorThunk },
+	{ 0x0600005F, U3CLoadPrefsAsyncU3Ed__32_MoveNext_m5E5241FF4AA941284E9D688AAA2F84BC0C6DDF6B_AdjustorThunk },
+	{ 0x06000060, U3CLoadPrefsAsyncU3Ed__32_SetStateMachine_mE17C5EC949CCDD7A1E7158858FF2A5E05708B15B_AdjustorThunk },
+	{ 0x06000061, U3CSaveAsyncU3Ed__33_MoveNext_m27754B42C1F841D88CA42DAB0A66054516CA3645_AdjustorThunk },
+	{ 0x06000062, U3CSaveAsyncU3Ed__33_SetStateMachine_mAA588F32C512BDA491B9B234A6EB6584D0C3DC1A_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[128] = 
+{
+	5507,
+	5615,
+	5615,
+	5615,
+	7745,
+	7759,
+	8910,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5507,
+	4587,
+	8886,
+	8886,
+	5428,
+	5615,
+	5615,
+	5428,
+	4587,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	4587,
+	5615,
+	5615,
+	2464,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5507,
+	4587,
+	5428,
+	4510,
+	5428,
+	4510,
+	5428,
+	5428,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	3332,
+	5507,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	4078,
+	5615,
+	5615,
+	4587,
+	5615,
+	4587,
+	5615,
+	4587,
+	5615,
+	4587,
+	5615,
+	4587,
+	5428,
+	4510,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	4510,
+	4510,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	5615,
+	4587,
+	5507,
+	5615,
+	5615,
+	4587,
+	8946,
+	5615,
+	3332,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_ACTk_Examples_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_ACTk_Examples_Runtime_CodeGenModule = 
+{
+	"ACTk.Examples.Runtime.dll",
+	128,
+	s_methodPointers,
+	10,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
